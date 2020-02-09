@@ -1,0 +1,129 @@
+body {
+     font-family: 'Bangers', cursive;
+
+
+}
+
+@keyframes move {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+
+
+
+
+
+header { 
+    font-family: 'Bangers', cursive;
+    color: black;
+}
+
+.navbar {
+    color: black;
+    
+}
+
+.myjumbo {
+    
+    font-family: 'Bangers', cursive;
+    color: black;
+    background-image: url(http://33.media.tumblr.com/6ebbab584ead0ad1e6057a12503d7b04/tumblr_niboy74W3H1u8tv5to1_500.gif)
+
+}
+
+.display-4 {
+     padding-bottom: 50px
+    
+}
+
+
+.secondjumbo {
+
+    font-family:  'Bangers', cursive;
+    
+   
+}
+
+
+#myimg{
+    position: relative;
+    width: 400px;
+    bottom: 477px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    height: 445px;
+   
+    
+}
+
+#secondimg {
+
+    width: 55px;
+}
+
+#third {
+  position: relative;
+  width: 300px;
+  left: 1150px;
+  bottom: 400px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
+ 
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 100%; 
+    }
+  
+    to {
+      margin-left: -30%;
+      width: 30%;
+    }
+  }
+
+ @keyframes slideback {
+    from {
+        margin-left: -30%;
+        width: 30%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+
+
+    }
+
+
+ }
+
+
+
+ .slidein {
+
+    animation-name: slidein;
+    animation-duration:1s;
+    
+   
+  }
+
+  .slideback {
+    
+    animation-name: slideback;
+    animation-delay: s;
+    animation-duration: 3s;
+    
+  }
+
+ #monbtn {
+
+   
+
+ }
+  
